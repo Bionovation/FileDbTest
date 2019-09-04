@@ -3,5 +3,25 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="LeveldbTest.cpp" />
+    <ClCompile Include="..\common\sqlite-3.29.0\shell.c">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\sqlite-3.29.0\sqlite3.c">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="SqliteTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sqlite">
+      <UniqueIdentifier>{fcf9904c-d491-411c-88c7-15c5d5af6186}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\sqlite-3.29.0\sqlite3.h">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\sqlite-3.29.0\sqlite3ext.h">
+      <Filter>sqlite</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

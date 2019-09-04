@@ -14,6 +14,10 @@ void testLeveldb()
 	//std::cout << "connect status : " << status.ok() << std::endl;
 
 	db->Put(leveldb::WriteOptions(), "say", "hello leveldb");
+	
+	int imgBufSize = 60 * 1024 * 1024;
+	void *imgBuf = malloc(imgBufSize);
+
 
 	std::string val = "";
 	db->Get(leveldb::ReadOptions(), "say", &val);
