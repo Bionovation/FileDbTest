@@ -122,6 +122,7 @@
   <ItemGroup>
     <ClCompile Include="..\common\sqlite-3.29.0\shell.c" />
     <ClCompile Include="..\common\sqlite-3.29.0\sqlite3.c" />
+    <ClCompile Include="BicCellpics.cpp" />
     <ClCompile Include="LeveldbTest.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="SqliteTest.cpp" />
@@ -129,6 +130,7 @@
   <ItemGroup>
     <ClInclude Include="..\common\sqlite-3.29.0\sqlite3.h" />
     <ClInclude Include="..\common\sqlite-3.29.0\sqlite3ext.h" />
+    <ClInclude Include="BicCellpics.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

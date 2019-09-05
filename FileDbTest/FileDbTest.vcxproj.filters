@@ -10,6 +10,7 @@
       <Filter>sqlite</Filter>
     </ClCompile>
     <ClCompile Include="SqliteTest.cpp" />
+    <ClCompile Include="BicCellpics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="sqlite">
@@ -23,5 +24,6 @@
     <ClInclude Include="..\common\sqlite-3.29.0\sqlite3ext.h">
       <Filter>sqlite</Filter>
     </ClInclude>
+    <ClInclude Include="BicCellpics.h" />
   </ItemGroup>
 </Project>
